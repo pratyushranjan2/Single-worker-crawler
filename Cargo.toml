@@ -1,0 +1,11 @@
+[package]
+name = "crawler"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+dashmap = "6.2.1"
+reqwest = "0.13.5"
+scraper = "0.27.0"
+tokio = { version = "1.53.2", features = ["fs", "macros", "rt-multi-thread", "sync"] }
+url = "2.5.8"
